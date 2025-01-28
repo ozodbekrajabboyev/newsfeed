@@ -22,7 +22,7 @@ class NewsFactory extends Factory
         return [
             'author_id' => Author::factory(),
             'category_id' => Category::factory(),
-            'title' => $this->faker->sentence(),
+            'title' => $this->faker->realText(),
             'content' => $this->faker->paragraph(),
             'photo_url' => $this->faker->imageUrl(),
         ];

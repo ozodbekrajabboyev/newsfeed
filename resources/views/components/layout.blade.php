@@ -1,3 +1,4 @@
+@yield('categories')
 @include('partials.header')
 @include('partials.nav')
 @include('partials.latestnews')

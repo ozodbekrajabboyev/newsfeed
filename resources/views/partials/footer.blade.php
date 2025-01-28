@@ -10,31 +10,32 @@
                 <div class="footer_widget wow fadeInDown">
                     <h2>Tag</h2>
                     <ul class="tag_nav">
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Life &amp; Style</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Photo</a></li>
-                        <li><a href="#">Slider</a></li>
+                        @foreach($categories as $category)
+                            <li><a href="#">{{ $category }}</a></li>
+                        @endforeach
+
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInRightBig">
                     <h2>Contact</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>If you have any questions, concerns, or feedback, feel free to reach out to us. We're here to help!
+
+                        You can contact us through the following methods, and we’ll be happy to assist you with any inquiries. Whether you prefer to call, send a fax, or visit us in person, we’re always ready to help.</p>
                     <address>
-                        Perfect News,1238 S . 123 St.Suite 25 Town City 3333,USA Phone: 123-326-789 Fax: 123-546-567
+                        Perfect News,<br>
+                        Usta Shirin, 74, Yunusobod, Tashkent, Uzbekistan <br>
+                        Phone Num: +998-20-006-7471 <br>
+                        Fax: 123-546-567
                     </address>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer_bottom">
-        <p class="copyright">Copyright &copy; 2045 <a href="index.html">NewsFeed</a></p>
-        <p class="developer">Developed By Wpfreeware</p>
+        <p class="copyright">Copyright &copy; 2025 <a href="/">NewsFeed</a></p>
+        <p class="developer">Developed By Ozodbek Rajabboyev</p>
     </div>
 </footer>
 

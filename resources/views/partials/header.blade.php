@@ -34,9 +34,9 @@
                 <div class="header_top">
                     <div class="header_top_left">
                         <ul class="top_nav">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="#">About</a></li>
-                            <li><a href="pages/contact.html">Contact</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div class="header_top_right">
@@ -46,8 +46,15 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="header_bottom">
-                    <div class="logo_area"><a href="index.html" class="logo"><img src="images/logo.jpg" alt=""></a></div>
-                    <div class="add_banner"><a href="#"><img src="images/addbanner_728x90_V1.jpg" alt=""></a></div>
+                    <div class="logo_area"><a href="/" class="logo"><img src="images/logo.jpg" alt=""></a></div>
+                    <div class="add_banner">
+                        <a href="https://imtek.buxedu.uz/" target="_blank">
+                            <video width="728" height="90" autoplay loop muted playsinline>
+                                <source src="{{ asset('images/imtekad.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
